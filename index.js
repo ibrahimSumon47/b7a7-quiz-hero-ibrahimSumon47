@@ -27,7 +27,7 @@ startQuiz.addEventListener("click", () => {
       countDown.classList.add("hidden");
       counterNum = 3;
       count = 0;
-      timer = null;
+      timer = 6000;
       quizData = null;
       answers = [];
       rulesContainer.classList.add("hidden");
